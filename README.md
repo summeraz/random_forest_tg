@@ -24,7 +24,9 @@ git clone https://github.com/summeraz/terminal_groups_mixed.git
 
 ```
 git clone https://github.com/summeraz/atools_ml.git
+cd atools_ml
 pip install .
+cd ..
 ```
 
 #### Install the Signac analysis package
@@ -33,5 +35,10 @@ pip install .
 #### Install other required packages
 
 ```
-conda install numpy pandas scipy scikit-learn
+conda install numpy pandas rdkit=2018.03.3 scipy scikit-learn -c conda-forge
+```
+
+#### Clone this repo
+```
+git clone https://github.com/summeraz/random_forest_tg.git
 ```
