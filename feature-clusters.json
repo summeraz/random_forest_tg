@@ -1,0 +1,63 @@
+{
+    "complexity": [
+        "balabanj",
+        "bertzct",
+        "chi0",
+        "chi0n",
+        "chi0v",
+        "chi1",
+        "chi1n",
+        "chi1v",
+        "chi2n",
+        "chi2v",
+        "chi3n",
+        "chi3v",
+        "chi4n",
+        "chi4v",
+        "ipc"
+    ],
+    "qdist": [
+        "hbonds",
+        "logP",
+        "tpsa",
+        "rpc+",
+        "rpc-",
+        "vsa-fhyd",
+        "vsa-fpneg",
+        "vsa-fppos",
+        "vsa-polar+",
+        "vsa-polar-",
+        "vsa-polar",
+        "vsa+",
+        "vsa-",
+        "vsa-hyd",
+        "vsa-fneg",
+        "vsa-fpos"
+    ],
+    "shape": [
+        "asphericity",
+        "eccentricity",
+        "hk-alpha",
+        "hk-kappa1",
+        "hk-kappa2",
+        "hk-kappa3",
+        "isf",
+        "npr1",
+        "npr2",
+        "pbf",
+        "pmi1",
+        "pmi2",
+        "pmi3",
+        "rg",
+        "spherocity"
+    ],
+    "size": [
+        "labuteASA",
+        "MR",
+        "molwt",
+        "molwt-hvy",
+        "nheavy",
+        "rbonds",
+        "e-valence"
+    ]
+}
