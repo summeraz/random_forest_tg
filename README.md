@@ -1,16 +1,27 @@
-# random_forest_tg
-Random forest models for predicting the coefficient of friction and adhesion for systems of two contacting functionalized monolayers.
+## Random forest models for predicting the coefficient of friction and adhesion for systems of two contacting functionalized monolayers.
 
 ### Installation
 
 Use of this model requires several Python packages to be installed, as well
-as data obtained from molecular dynamics screening. It is recommended to
-use the Anaconda package manager to create a new environment for using these
-models.
+as data obtained from molecular dynamics screening. Most of the required
+packages are located in the `req.txt` file. It is recommended to
+use the Anaconda package manager to create a new environment, as the
+packages can be pulled from this file directly.
 
-`>> conda create --name myconda python=3.5`
+The recommended installation instructions are as follows:
+
+#### Clone this repository
+
+```
+>> git clone https://github.com/summeraz/random_forest_tg.git
+```
+
+#### Create a new Anaconda environment
+
+`>> conda create --name myconda --file random_forest_tg/req.txt -c conda-forge python=3.5`
 
 #### Activate the environment
+
 `>> source activate myconda`
 
 #### Download data from MD screening
@@ -29,16 +40,13 @@ pip install .
 cd ..
 ```
 
-#### Install the Signac analysis package
-`conda install signac -c glotzer`
-
-#### Install other required packages
-
-```
-conda install numpy pandas rdkit=2018.03.3 scipy scikit-learn -c conda-forge
-```
-
-#### Clone this repo
-```
-git clone https://github.com/summeraz/random_forest_tg.git
-```
+### Using the models
+The random forest models can be regenerated in a few seconds.
+Thus, rather than providing these models in a form already generated (such
+as a serialized form like pickle), the script herein re-creates the models
+on the spot.
+The script `rf.py` is used to regenerate the models and generate
+predictions for user-specified terminal group chemistries. These can be
+changed by opening the file and altering the `"SMILES1"` and `"SMILES2"`
+variables.
+Further instructions can be found inside the `rf.py` file.

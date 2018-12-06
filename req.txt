@@ -5,7 +5,7 @@ altair=2.2.2=py_0
 appdirs=1.4.3=py_1
 appnope=0.1.0=py35_0
 argon2_cffi=18.1.0=py35_1
-asn1crypto=0.24.0=py_1
+asn1crypto=0.24.0=py35_0
 atomicwrites=1.1.5=py35_0
 attrs=18.1.0=py_1
 automat=0.7.0=py35_0
