@@ -18,7 +18,7 @@ The recommended installation instructions are as follows:
 
 #### Create a new Anaconda environment
 
-`>> conda create --name myconda --file random_forest_tg/req.txt -c conda-forge python=3.5`
+`>> conda create --name myconda --file random_forest_tg/req.txt -c conda-forge -c omnia python=3.5`
 
 #### Activate the environment
 
